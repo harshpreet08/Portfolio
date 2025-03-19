@@ -1,0 +1,154 @@
+{
+  "name": "harsh",
+  "headerTaglineOne": "Harshpreet Singh.",
+  "headerTaglineTwo": {
+    "txt": "Software Developer Intern, Algorithms",
+    "place": "Kinaxis.",
+    "link": "https://kinaxis.com"
+  },
+
+  "headerTaglineFour": "I'm a builder who's passionate about sustainable impact.",
+  "showCursor": true,
+  "showBlog": true,
+  "darkMode": true,
+  "showResume": true,
+  "headshot": "https://i.imgur.com/CgTFQP1.jpeg",
+  "socials": [
+    {
+      "id": "1",
+      "title": "Github",
+      "link": "https://github.com/harshpreet08"
+    },
+    {
+      "id": "2",
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/in/harshpreet08/"
+    },
+    { "id": "3", "title": "Email", "link": "mailto:harshpreetsingh277@gmail.com" }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "CloudCuisine",
+      "date": "2024",
+      "description": "A recipe management and sharing React application using AWS cloud services.",
+      "imageSrc": "https://i.imgur.com/sIWI0JR.png",
+      "url": "https://github.com/harshpreet08/CloudCuisine"
+    },
+    {
+      "id": "2",
+      "title": "EduHub",
+      "date": "2024",
+      "description": "A web application for e-learning.",
+      "imageSrc": "https://i.imgur.com/sIWI0JR.png",
+      "url": "https://github.com/harshpreet08/EduHub"
+    },
+    {
+      "id": "3",
+      "title": "cucumber-reporting-2023",
+      "date": "2023",
+      "description": "HTML reports for Cucumber.",
+      "imageSrc": "https://i.imgur.com/sIWI0JR.png",
+      "url": "https://github.com/harshpreet08/cucumber-reporting-2023"
+    }
+  ],
+  "services": [],
+  "aboutpara": [
+      "Hi there! 👋",
+      "I'm Harshpreet Singh, a software developer passionate about backend development, cloud computing, and DevOps. I enjoy solving challenging problems, optimizing performance, and building scalable software solutions.",
+      "Currently, I'm a Software Developer Co-Op at Kinaxis, where I work with C++ to improve system performance and enhance infrastructure. I've also worked on REST APIs, cloud services, and large-scale framework migrations in my previous roles.",
+      "I love working with technologies like AWS, Docker, Kubernetes, and CI/CD to streamline development workflows. Whether it's writing clean, efficient code or optimizing build pipelines, I'm always looking for ways to improve and learn.",
+      "Outside of work, I enjoy contributing to open-source projects, experimenting with new technologies, and sharing my knowledge with the community."
+  ],
+
+  "resume": {
+    "resumeLink": "https://drive.google.com/file/d/1B4X7UPmAd_TW8naXkvMVhFMfK-CtyE-Y/view",
+    "name": "harsh.",
+    "tagline": "Graduate in Computer Science from Dalhousie University, passionate about impactful technology.",
+    "description": "I am a software developer with experience in C++, Java, and cloud technologies, specializing in building scalable and high-performance applications. I have worked on caching solutions, API development, and cloud-based systems, contributing to performance improvements and large-scale migrations. Passionate about backend development, DevOps, and designing software architectures.",
+
+    "experiences": [
+      {
+        "id": "1",
+        "dates": "September 2024 - Present",
+        "type": "Internship",
+        "company": "Kinaxis",
+        "position": "Software Developer, Algorithms",
+        "bullets": []
+      },
+      {
+        "id": "1",
+        "dates": "September 2023 - December 2024",
+        "type": "Data Structures and Algorithms, Network Computing, Advanced Cloud Computing, Advanced Web Development, Advanced Database Systems",
+        "company": "Dalhousie University",
+        "position": "Teaching Assistant",
+        "bullets": []
+      },
+      {
+        "id": "1",
+        "dates": "May 2023 - September 2023",
+        "type": "Full Time",
+        "company": "CG Infinity",
+        "position": "Software Developer",
+        "bullets": []
+      },
+      {
+        "id": "1",
+        "dates": "May 2022 - May 2023",
+        "type": "Internship",
+        "company": "CG Infinity",
+        "position": "Software Developer",
+        "bullets": []
+      }
+    ],
+    "education": {
+      "universityName": "Dalhousie University",
+      "universityDate": "2023 - 2025",
+      "universityPara": "Masters of Applied Computer Science"
+    },
+    "languages": ["C++", "Java", "C#", "Kotlin", "Go", "JavaScript", "Groovy", "Apex", "SQL"],
+    "frameworks": [
+      "GNU",
+      "NUnit",
+      "JUnit",
+      "React.js",
+      "Node.js",
+      "Redux",
+      "Spring Boot",
+      "JSON"
+    ],
+    "cloud_and_devops": [
+      "AWS",
+      "GCP",
+      "Salesforce",
+      "Docker",
+      "Kubernetes",
+      "Terraform",
+      "Linux",
+      "CI/CD",
+      "Jenkins",
+      "JIRA",
+      "Bitbucket",
+      "Git",
+      "GitHub"
+    ],
+    "hardware": [
+      "Solidworks",
+      "Fusion 360",
+      "Altium Designer",
+      "3D Printing",
+      "Soldering and Electrical Assembly"
+    ],
+    "concepts": [
+    "Data Structures",
+    "Algorithms",
+    "Object Oriented Programming (OOP)",
+    "Design Patterns",
+    "Test-Driven Development",
+    "REST API",
+    "Software Development Life Cycle",
+    "Agile",
+    "Scrum"
+  ]
+  }
+}

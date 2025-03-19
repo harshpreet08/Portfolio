@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "./markdown.css";
+
+* {
+  font-family: "Hind";
+}
+
+.pixelify-sans {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.green-blue {
+  color: #43645a;
+}
+
+.full-screen-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh; /* Full viewport height */
+}
+
+.vertical-spacer {
+  height: 10em; /* Adjust the height as needed */
+}
+
+@media screen and (max-width: 600px) {
+  .invisible-mobile {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
+
+.fullscreen {
+  height: 100vh;
+}
+
+body {
+  @apply dark:bg-black dark:text-white;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.gradient-circle {
+  position: absolute;
+  pointer-events: none;
+  z-index: 100;
+  top: -30px;
+  height: 40px;
+  width: 100vw;
+  opacity: 0.5;
+  filter: blur(40px);
+  background: radial-gradient(
+    circle,
+    rgb(50, 94, 81) 0%,
+    rgba(30, 53, 48, 0.8) 100%
+  );
+}
+.gradient-circle-bottom {
+  position: absolute;
+  pointer-events: none;
+  z-index: 100;
+  bottom: -20px;
+  height: 30px;
+  width: 100vw;
+  opacity: 0.5;
+  filter: blur(40px);
+  background: radial-gradient(
+    circle,
+    rgb(50, 94, 81) 0%,
+    rgba(30, 53, 48, 0.8) 100%
+  );
+}
+
+.gradient-shadow:hover::before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(-45deg, #44b17a 0%, #144e3d 100%);
+  transform: translate3d(0px, 20px, 0) scale(0.95);
+  filter: blur(20px);
+  opacity: var(0.7);
+  transition: opacity 0.3s;
+  border-radius: inherit;
+}
+
+/* 
+* Prevents issues when the parent creates a 
+* stacking context. (For example, using the transform
+* property )
+*/
+.gradient-shadow:hover::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: inherit;
+  border-radius: inherit;
+}
