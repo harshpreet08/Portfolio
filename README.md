@@ -1,8 +1,8 @@
-# sabrinabutton.ca - my personal portfolio 
-Active as of August 2024.
+# sabrinabutton.ca - my personal portfolio
 
-### Live - https://sabrinabutton.ca
-Deployed with [Vercel🔺](https://vercel.com).
+Active as of March 2025.
+
+Deployed with Github Pages.
 
 ### Sections
 
@@ -18,13 +18,10 @@ Deployed with [Vercel🔺](https://vercel.com).
 - `yarn dev`
 
 ### Tech Stack Used
+
 - Next.js
 - TailwindCSS
 
-# Acknowledgments 
+# Acknowledgments
 
 This website leverages [Chetan Verma's react-portfolio-template](https://github.com/chetanverma16/react-portfolio-template) as a boilerplate. Thematic elements, colour and font design, and all portfolio contents are my own.
-
-
-
-
