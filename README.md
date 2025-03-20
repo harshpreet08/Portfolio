@@ -1,8 +1,8 @@
-# sabrinabutton.ca - my personal portfolio
+# harshdevs.netlify.app - my personal portfolio
 
 Active as of March 2025.
 
-Deployed with Github Pages.
+Deployed with [Netlify](https://harshdevs.netlify.app/).
 
 ### Sections
 
