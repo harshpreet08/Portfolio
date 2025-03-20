@@ -2,7 +2,7 @@
 
 Active as of March 2025.
 
-Deployed with [Netlify](https://harshdevs.netlify.app/).
+<!-- Deployed with [Netlify](https://harshdevs.netlify.app/). -->
 
 ### Sections
 
