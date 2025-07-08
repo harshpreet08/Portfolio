@@ -2,7 +2,7 @@
   "name": "harsh",
   "headerTaglineOne": "Harshpreet Singh.",
   "headerTaglineTwo": {
-    "txt": "Software Developer Intern, Algorithms",
+    "txt": "Software Developer, Algorithms",
     "place": "Kinaxis.",
     "link": "https://kinaxis.com"
   },
@@ -12,7 +12,7 @@
   "showBlog": true,
   "darkMode": true,
   "showResume": true,
-  "headshot": "https://i.imgur.com/CgTFQP1.jpeg",
+  "headshot": "https://i.imgur.com/JyC6Z70.jpeg",
   "socials": [
     {
       "id": "1",
